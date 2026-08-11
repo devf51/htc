@@ -361,10 +361,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `email`, `password_hash`, `name`, `role`, `department`, `level`, `is_verified`, `verify_token`, `avatar_url`, `created_at`, `is_super_admin`) VALUES
-(1, '67219010003@htc.ac.th', '$pbkdf2-sha256$29000$W6vVeu8dgzDG.F8r5TxnTA$ZVorZ.d7ArFTSf3vt.9dJszv5/u.Hfh1xuDNoMZBE5I', 'นายกิตติพศ โยมสิน', 'admin', 'แผนกวิชาช่างอิเล็กทรอนิกส์', 'ระดับประกา', 1, NULL, 'https://lh3.googleusercontent.com/a/ACg8ocIPnYoTn5bMEkd4ZUeuhrVPpuwHRBxPHi47CDUk84g7oIPPAkM=s96-c', '2026-08-05 14:56:28', 1),
-(2, 'tthhxxeezz@gmail.com', '$pbkdf2-sha256$29000$ZGwNISRESClFaC0FgHAuJQ$xk7V65A/74KxBF7zULSXjWf5AaKSY6hVRU2BeN4qEzg', 'KIttipod Yomsin', 'student', 'แผนกวิชาช่างอิเล็กทรอนิกส์', 'ระดับประกา', 1, NULL, NULL, '2026-08-05 14:57:40', 0),
-(3, 'kp.ypremium23@gmail.com', '$pbkdf2-sha256$29000$W6uVcq71/l.LEWLMOQfAeA$RwS1xh.lM8NLdlrU6E4x.AjLesxYz/UBaW2HJ1ukC9s', 'Me & You', 'student', 'แผนกวิชาช่างอิเล็กทรอนิกส์', 'ระดับประกา', 1, NULL, 'https://lh3.googleusercontent.com/a/ACg8ocI6_rSr2nprbHckAaNc_nKPWsUsFuaSN0skrwPi1G6JsP53UKY=s96-c', '2026-08-05 15:03:51', 0),
-(4, 'kittipod5348@gmail.com', '$pbkdf2-sha256$29000$PYew9l5rbe3dO8d4D6H0Hg$gg9omPQwiF.B2UB8RrydMMQHBhgDfEokvkuz9NaxaJs', 'กิตติพศ โยมสิน', 'student', 'แผนกวิชาเทคโนโลยีสารสนเทศ', 'ปวช.', 1, NULL, 'https://lh3.googleusercontent.com/a/ACg8ocLwahgpwk-YxTJc1SRUFFbD0bxBMdLtAmsBDGK3OtYXheW3DbRJ=s96-c', '2026-08-08 14:01:13', 0);
+(1, 'superadmin@htc.ac.th', '$pbkdf2-sha256$29000$W6vVeu8dgzDG.F8r5TxnTA$ZVorZ.d7ArFTSf3vt.9dJszv5/u.Hfh1xuDNoMZBE5I', 'Super Admin', 'admin', 'แผนกวิชาช่างอิเล็กทรอนิกส์', 'ระดับประกา', 1, NULL, NULL, '2026-08-05 14:56:28', 1),
+(2, 'student01@htc.ac.th', '$pbkdf2-sha256$29000$ZGwNISRESClFaC0FgHAuJQ$xk7V65A/74KxBF7zULSXjWf5AaKSY6hVRU2BeN4qEzg', 'Student One', 'student', 'แผนกวิชาช่างอิเล็กทรอนิกส์', 'ระดับประกา', 1, NULL, NULL, '2026-08-05 14:57:40', 0),
+(3, 'student02@htc.ac.th', '$pbkdf2-sha256$29000$W6uVcq71/l.LEWLMOQfAeA$RwS1xh.lM8NLdlrU6E4x.AjLesxYz/UBaW2HJ1ukC9s', 'Student Two', 'student', 'แผนกวิชาช่างอิเล็กทรอนิกส์', 'ระดับประกา', 1, NULL, NULL, '2026-08-05 15:03:51', 0),
+(4, 'student03@htc.ac.th', '$pbkdf2-sha256$29000$PYew9l5rbe3dO8d4D6H0Hg$gg9omPQwiF.B2UB8RrydMMQHBhgDfEokvkuz9NaxaJs', 'Student Three', 'student', 'แผนกวิชาเทคโนโลยีสารสนเทศ', 'ปวช.', 1, NULL, NULL, '2026-08-08 14:01:13', 0);
 
 --
 -- Indexes for dumped tables
